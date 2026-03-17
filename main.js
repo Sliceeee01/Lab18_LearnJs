@@ -91,6 +91,7 @@ persons.city = "Volzskiy";
 console.log(persons);
 person = {name: "Stas" }; 
 
+//7.2
 console.log(typeof "текст"); 
 console.log(typeof 42); 
 console.log(typeof true); 
@@ -105,16 +106,12 @@ console.log(numberX === null);
 
 
 
-
+//Practice
 let newPrice;
-
 newPrice = 150;
-
 console.log("Значение newPrice:", newPrice);
 console.log("Тип newPrice:", typeof newPrice);
-
 newPrice = "150 рублей";
-
 console.log("Значение newPrice:", newPrice);
 console.log("Тип newPrice:", typeof newPrice);
 
