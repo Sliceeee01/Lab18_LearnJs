@@ -160,8 +160,85 @@
 // let arr2 = [1, 2, 3];
 // console.log(arr1 === arr2);
 
+//11.4 Practice
+// let a2 = 5;
+// let b2 = 2;
+// console.log(a2 + b2); 
+// console.log(a2 * b2); 
 
-let a2 = 5;
-let b2 = 2;
-console.log(a2 + b2); 
-console.log(a2 * b2); 
+//12.2
+// let yourAge = 18;
+
+// if(yourAge >= 18) {
+//     console.log("Доступ разрешён")
+// }else {
+//     console.log("Доступ запрещён")
+// }
+
+
+//12.3
+// let temperature = 24;
+
+// if (temperature < 0) {
+// console.log("Холодно");
+// } 
+// else if (temperature <= 20) {
+// console.log("Прохладно");
+// } 
+// else {
+// console.log("Тепло");
+// }
+
+//12.4
+// if (isStudent && age < 25){
+//     console.log("Доступна студенческая скидка");
+// }
+
+//12.5
+// let isLoggedIn = true;
+// let isAdmin = true;
+
+// if (isLoggedIn && isAdmin) {
+//     console.log("Полный доступ");
+// } 
+// else if (isLoggedIn && !isAdmin) {
+//     console.log("Ограниченный доступ");
+// } 
+// else {
+//     console.log("Доступ запрещён");
+// }
+
+//12.6
+// a3 = 10
+// b3 = "10"
+// console.log(a3 == b3);
+// console.log(a3 === b3);
+
+//12.7
+// let message = age >= 18 ? "Совершеннолетний" : "Несовершеннолетний";
+// console.log(message); 
+//12.8
+// let day = 3;
+// switch (day){
+//     case 1: console.log("Понедельник"); break;
+//     case 2: console.log("Вторник"); break;
+//     case 3: console.log("Среда"); break;
+//     default: console.log("Неизвестный день");
+// }
+let monthNumber = 13; 
+switch (monthNumber) {
+    case 1:console.log("Январь");break;
+    case 2:console.log("Февраль");break;
+    case 3:console.log("Март");break;
+    case 4:console.log("Апрель");break;
+    case 5:console.log("Май");break;
+    case 6:console.log("Июнь");break;
+    case 7:console.log("Июль");break;
+    case 8:console.log("Август");break;
+    case 9:console.log("Сентябрь");break;
+    case 10:console.log("Октябрь");break;
+    case 11:console.log("Ноябрь");break;
+    case 12:console.log("Декабрь");break;
+    default:
+        console.log("Ошибка!");
+}
