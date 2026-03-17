@@ -115,7 +115,7 @@ newPrice = "150 рублей";
 console.log("Значение newPrice:", newPrice);
 console.log("Тип newPrice:", typeof newPrice);
 
-
+//8.2
 let num = 42;
 let str = String(num); 
 let str2 = num.toString();
