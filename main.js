@@ -1,161 +1,167 @@
-console.log("Hello, JavaScript!");
+// console.log("Hello, JavaScript!");
 
-//6.2
-let age = 18;
-let name = "Diana";
-let isStudent = true;
+// //6.2
+// let age = 18;
+// let name = "Diana";
+// let isStudent = true;
 
-console.log("Name: ", name);
-console.log("Age: ", age);
-console.log("Is student: ", isStudent);
+// console.log("Name: ", name);
+// console.log("Age: ", age);
+// console.log("Is student: ", isStudent);
 
-//6.3
-let value = 10;
-console.log(value);
-value = "Теперь это строка";
-console.log(value);
-value = true;
-console.log(value);
-
-
-//6.4
-let userName = "Алексей";
-console.log(`Привет, ${userName}!`);
+// //6.3
+// let value = 10;
+// console.log(value);
+// value = "Теперь это строка";
+// console.log(value);
+// value = true;
+// console.log(value);
 
 
-let price = 99.99;      
-let temperature = -15;     
-let infinity = 1 / 0;      
-let notANumber = 0 / 0;    
-
-console.log(0.1 + 0.2);  
+// //6.4
+// let userName = "Алексей";
+// console.log(`Привет, ${userName}!`);
 
 
-let bigNumber = 939379474441n; 
-let huge = BigInt("123456789012345678901234567890");
+// let price = 99.99;      
+// let temperature = -15;     
+// let infinity = 1 / 0;      
+// let notANumber = 0 / 0;    
 
-let isAlive = true;
-let isWorking = false;
-let isAdult = age >= 18;
-let x;
-let y = undefined; 
-let userData = null;
-
-let id = Symbol("id");
-let person = {
-    name: "Ivan",
-    age: 18,
-    isStudent: false,
-    sayHello: function () {
-        console.log("Hello!");
-    }
-};
-console.log(person.name);
-
-let fruits = ["яблоко", "банан", "апельсин"];
-let numbers = [1, 2, 3, 4, 5];
-let mixed = ["текст", 42, true, null];
-
-function sum(a, b) {
-    return a + b;
-}
-let multiply = function (x, y) {
-    return x * y;
-};
-console.log(sum(5, 3));
-
-let now = new Date();
-let birthday = new Date("2007-07-17");
+// console.log(0.1 + 0.2);  
 
 
-//6.6
-let a = 10;
-let b = 3;
-console.log(a + b); 
-console.log(a - b); 
-console.log(a * b); 
-console.log(a / b); 
-console.log(10 + "5");
-console.log("10" - 5); 
+// let bigNumber = 939379474441n; 
+// let huge = BigInt("123456789012345678901234567890");
 
-//Константы
-const numbersArray = [1, 2, 3];
-numbersArray[0] = 10; 
-console.log(numbersArray); 
+// let isAlive = true;
+// let isWorking = false;
+// let isAdult = age >= 18;
+// let x;
+// let y = undefined; 
+// let userData = null;
+
+// let id = Symbol("id");
+// let person = {
+//     name: "Ivan",
+//     age: 18,
+//     isStudent: false,
+//     sayHello: function () {
+//         console.log("Hello!");
+//     }
+// };
+// console.log(person.name);
+
+// let fruits = ["яблоко", "банан", "апельсин"];
+// let numbers = [1, 2, 3, 4, 5];
+// let mixed = ["текст", 42, true, null];
+
+// function sum(a, b) {
+//     return a + b;
+// }
+// let multiply = function (x, y) {
+//     return x * y;
+// };
+// console.log(sum(5, 3));
+
+// let now = new Date();
+// let birthday = new Date("2007-07-17");
 
 
-const persons = { name: "Ivan", age: 18 };
-persons.age = 50; 
-persons.city = "Volzskiy"; 
-console.log(persons);
-person = {name: "Stas" }; 
+// //6.6
+// let a = 10;
+// let b = 3;
+// console.log(a + b); 
+// console.log(a - b); 
+// console.log(a * b); 
+// console.log(a / b); 
+// console.log(10 + "5");
+// console.log("10" - 5); 
 
-//7.2
-console.log(typeof "текст"); 
-console.log(typeof 42); 
-console.log(typeof true); 
-console.log(typeof undefined);
-console.log(typeof null); 
-console.log(typeof {}); 
-console.log(typeof []); 
-console.log(typeof function () {});
-
-let numberX = null;
-console.log(numberX === null);
+// //Константы
+// const numbersArray = [1, 2, 3];
+// numbersArray[0] = 10; 
+// console.log(numbersArray); 
 
 
+// const persons = { name: "Ivan", age: 18 };
+// persons.age = 50; 
+// persons.city = "Volzskiy"; 
+// console.log(persons);
+// person = {name: "Stas" }; 
 
-//Practice
-let newPrice;
-newPrice = 150;
-console.log("Значение newPrice:", newPrice);
-console.log("Тип newPrice:", typeof newPrice);
-newPrice = "150 рублей";
-console.log("Значение newPrice:", newPrice);
-console.log("Тип newPrice:", typeof newPrice);
+// //7.2
+// console.log(typeof "текст"); 
+// console.log(typeof 42); 
+// console.log(typeof true); 
+// console.log(typeof undefined);
+// console.log(typeof null); 
+// console.log(typeof {}); 
+// console.log(typeof []); 
+// console.log(typeof function () {});
 
-//8.2
-let num = 42;
-let str = String(num); 
-let str2 = num.toString();
-let str3 = "" + num; 
+// let numberX = null;
+// console.log(numberX === null);
 
-let strNum = "123";
-let int = Number(strNum); 
-let int2 = parseInt("42.5"); 
-let float = parseFloat("3.14");
-let int3 = +"99"; 
 
-let bool1 = Boolean(1); 
-let bool2 = !!1; 
-let bool3 = Boolean(0); 
-let bool4 = Boolean(""); 
 
-console.log("5" + 3); 
-console.log("5" - 3); 
-console.log("5" * "2");
-console.log(true + 1); 
-console.log(false + 1); 
-console.log(null + 1); 
-console.log(undefined + 1);
+// //Practice
+// let newPrice;
+// newPrice = 150;
+// console.log("Значение newPrice:", newPrice);
+// console.log("Тип newPrice:", typeof newPrice);
+// newPrice = "150 рублей";
+// console.log("Значение newPrice:", newPrice);
+// console.log("Тип newPrice:", typeof newPrice);
 
-//Step 9
-console.log(5 == "5");
-console.log(5 === "5");
-console.log(0 == false);
-console.log(0 === false);
-console.log(null == undefined);
-console.log(null === undefined);
+// //8.2
+// let num = 42;
+// let str = String(num); 
+// let str2 = num.toString();
+// let str3 = "" + num; 
 
-let obj1 = { name: "John" };
-let obj2 = { name: "John" };
+// let strNum = "123";
+// let int = Number(strNum); 
+// let int2 = parseInt("42.5"); 
+// let float = parseFloat("3.14");
+// let int3 = +"99"; 
 
-console.log (obj1 == obj2);
-console.log (obj1 === obj2);
+// let bool1 = Boolean(1); 
+// let bool2 = !!1; 
+// let bool3 = Boolean(0); 
+// let bool4 = Boolean(""); 
 
-let obj3 = obj1;
-console.log(obj1 === obj3);
+// console.log("5" + 3); 
+// console.log("5" - 3); 
+// console.log("5" * "2");
+// console.log(true + 1); 
+// console.log(false + 1); 
+// console.log(null + 1); 
+// console.log(undefined + 1);
 
-let arr1 = [1, 2, 3];
-let arr2 = [1, 2, 3];
-console.log(arr1 === arr2);
+// //Step 9
+// console.log(5 == "5");
+// console.log(5 === "5");
+// console.log(0 == false);
+// console.log(0 === false);
+// console.log(null == undefined);
+// console.log(null === undefined);
+
+// let obj1 = { name: "John" };
+// let obj2 = { name: "John" };
+
+// console.log (obj1 == obj2);
+// console.log (obj1 === obj2);
+
+// let obj3 = obj1;
+// console.log(obj1 === obj3);
+
+// let arr1 = [1, 2, 3];
+// let arr2 = [1, 2, 3];
+// console.log(arr1 === arr2);
+
+
+let a2 = 5;
+let b2 = 2;
+console.log(a2 + b2); 
+console.log(a2 * b2); 
