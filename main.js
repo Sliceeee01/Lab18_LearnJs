@@ -82,7 +82,6 @@ console.log("10" - 5);
 const numbersArray = [1, 2, 3];
 numbersArray[0] = 10; 
 console.log(numbersArray); 
-numbersArray = [5, 6, 7];//Ошибка
 
 
 const persons = { name: "Ivan", age: 18 };
